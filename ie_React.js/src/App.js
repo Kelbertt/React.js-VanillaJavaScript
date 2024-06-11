@@ -58,7 +58,7 @@ export default function App() {
             className={activeContentIndex === 2 ? "active" : ""}
             onClick={() => setActiveContentIndex(3)}
           >
-            React vs JS
+            React vs Javascript
           </button>
         </menu>
         <div id="tab-content">
