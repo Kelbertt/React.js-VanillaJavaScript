@@ -56,7 +56,7 @@ export default function App() {
           </button>
           <button
             className={activeContentIndex === 2 ? "active" : ""}
-            onClick={() => setActiveContentIndex(2)}
+            onClick={() => setActiveContentIndex(3)}
           >
             React vs JS
           </button>
