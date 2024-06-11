@@ -54,6 +54,12 @@ export default function App() {
           >
             Related Resources
           </button>
+          <button
+            className={activeContentIndex === 2 ? "active" : ""}
+            onClick={() => setActiveContentIndex(2)}
+          >
+            React vs JS
+          </button>
         </menu>
         <div id="tab-content">
           <ul>
